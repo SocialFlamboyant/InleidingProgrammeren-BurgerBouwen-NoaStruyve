@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burgers</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <section class="kopjes">
+        <article class="kopje">
+            <img src="images/burger-noa.jpg" alt="Noa's burger">
+            <div class="content">
+                <h2>Bouw je eigen burger</h2>
+                <p>Kom nu je custom burger bouwen.</p>
+            </div>
+        </article>
+        <h2>Maak je burger!</h2>
+    </section>
+
+    <div class="burger-container">
+        <img src="images/bun-bottom.png" class="ingredient" id="bun-bottom" style="display: block;">
+        <img src="images/kaas.png" class="ingredient" id="kaas">
+        <img src="images/tomaat.png" class="ingredient" id="tomaat">
+        <img src="images/patty.png" class="ingredient" id="patty">
+        <img src="images/saus.png" class="ingredient" id="saus">
+        <img src="images/bun-top.png" class="ingredient" id="bun-top">
+    </div>
+
+    <div class="knoppen">
+        <button class="switch-knop" ingredient="bun-top">Bun Top</button>
+        <button class="switch-knop" ingredient="tomaat">Tomaat</button>
+        <button class="switch-knop" ingredient="kaas">Kaas</button>
+        <button class="switch-knop" ingredient="patty">Patty</button>
+        <button class="switch-knop" ingredient="saus">Saus</button>
+    </div>
+
+    <div class="music-switch">
+        <button class="music-button">Muziek Aan/Uit</button>
+        <audio id="background-music" loop>
+            <source src="sounds/background-music.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <script src="./script/script.js"></script>  
+</body>
+</html>
+
+<!-- Bronnen:
+ lofi-muziek. (2025, 5 maart). Pixabay. https://pixabay.com/music/beats-lofi-background-music-309034/ -->
